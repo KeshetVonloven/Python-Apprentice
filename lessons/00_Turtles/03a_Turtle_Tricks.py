@@ -20,9 +20,9 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 ... # Your code here
 tina.pencolor('blue')                   # Set the pen color to blue
-tina.forward(150)                       # Move tina forward by the forward distance
-tina.left(170)  
+tina.forward(180)                       # Move tina forward by the forward distance
+tina.left(120)  
 tina.forward(180)
-tina.left(180)
-tina.forward(180)
+tina.left(120)
+tina.forward (180)
 turtle.exitonclick()                    # Close the window when we click on it
