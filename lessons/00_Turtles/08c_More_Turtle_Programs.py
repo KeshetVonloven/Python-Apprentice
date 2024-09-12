@@ -27,16 +27,11 @@ def set_background_image(window, image_name):
     window.setup(image.width, image.height, startx=0, starty=0)
     window.bgpic(image_path)
 
-# Set up the screen
-import turtle                           # Tell Python we want to work with the turtle
+# Set up the screen                           # Tell Python we want to work with the turtle
 turtle.setup(width=600, height=600)     # Set the size of the window
-
-tina = turtle.Turtle()                  # Create a turtle named tina
 
 screen = turtle.Screen()                # Get the screen that tina is on
 set_background_image(screen, "emoji.png") # Set the background image of the screen
-
-import turtle
 
 
 def set_turtle_image(turtle, image_name):
@@ -57,18 +52,19 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 
-set_turtle
-t.goto(200,-200)
+set_turtle_image(t, "pikachu.gif")
 
-
-turtle.exitonclick()  
-
-for i in range(4):  
-    t.goto(200, 20   
-e_image(t, "girl_blue.gif")
 
 t.penup()
-t.speed(3)0)
+
+for i in range(4):  
+    t.goto(300,300)
+    t.goto(300,-300)
+    t.goto(-300,-300)
+    t.goto(-300,300)
+    (t, "girl_blue.gif")
+
+t.speed(3)
     
 turtle.exitonclick()      
 
